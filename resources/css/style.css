@@ -174,3 +174,61 @@ body {
   }
 
 }
+
+
+/* large menu on tablet and browsers */
+@media only screen and (min-width: 630px) {
+  .navigation .smallnav {
+    display: none;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width: 630px) {
+  .menu .logo span {
+    display: none;
+  }
+
+  .navigation .normalnav {
+    display: none;
+  }
+
+  .header .shoutout {
+    height: auto;
+    width: 100%;
+    padding: 1rem 5rem;
+    text-align: center;
+  }
+
+  .header span {
+    font-size: 1rem;
+  }
+
+  .icons {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .statements {
+    flex-direction: column;
+  }
+
+  .philosophy, .appointments {
+    width: 100%;
+    padding: 0 0 4rem 0;
+  }
+
+  .statements .title {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer {
+    justify-content: center;
+  }
+
+  .footer span {
+    display: none;
+  }
+
+}

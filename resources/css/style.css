@@ -151,3 +151,26 @@ body {
   width: auto;
   padding: 4rem 1rem 4rem 4rem;
 }
+
+/* media queries */
+
+@media only screen and (max-width: 1024px) {
+  .menu {
+    top: 0;
+    width: 100%;
+  }
+
+  .header {
+    height: 22rem;
+    background-size: auto 28rem;
+  }
+
+  .header .shoutout {
+    padding: 0.75rem 4rem;
+  }
+
+  .header span {
+    font-size: 1.33rem;
+  }
+
+}
